@@ -13,10 +13,11 @@ class Solution {
         Set<Character> set = new HashSet<Character>();
         for (int left = 0, right = 0; right < chars.length; right++) {
             while (left <= right && set.contains(chars[right])) {
+                // 从左边界开始，逐个移除字符，直到移除掉与当前字符重复的字符
                 for (int i = left; i <= right; i++) {
                     set.remove(chars[i]);
                     left++;
-                    if (chars[i] == chars[right]) break;
+                    if (chars[i] == chars[right]) break; // 找到重复字符后，跳出循环
                 }
             }
 
