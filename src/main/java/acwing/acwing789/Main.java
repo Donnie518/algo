@@ -3,6 +3,7 @@ package acwing.acwing789;
 import java.util.Scanner;
 
 /**
+ * 二分查找
  * <a href="https://www.acwing.com/problem/content/791/">789. 数的范围</a>
  */
 public class Main {

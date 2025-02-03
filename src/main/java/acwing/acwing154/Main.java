@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
+ * 单调队列
  * AcWing 的评测机对 Java 不友好，会超时
  * 但是时间复杂度没问题
  */
